@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install venv packages",
+            "type": "shell",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "pip",
+                "install",
+                "-r",
+                ".install_venv"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run doorstop-edit",
+            "type": "shell",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "doorstop_edit"
+            ],
+            "isBackground": false,
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
