@@ -46,16 +46,8 @@
         {
             "label": "Generate documents",
             "type": "shell",
-            "command": "${command:python.interpreterPath}",
-            // "command": "doorstop",
-            "args": [
-                // "-m",
-                "doorstop",
-                "publish",
-                "--html",
-                "${input:doctype}",
-                "./out"
-            ],
+            "command": "$doctype = '${input:doctype}'; $outPath = if ($doctype -eq 'all') { './out' } else { \"./out/$doctype.html\" }; & \"${command:python.interpreterPath}\" -m doorstop.cli.main publish --html --template preamp $doctype $outPath",
+            "args": [],
             "isBackground": false,
             "problemMatcher": [],
             "group": {
