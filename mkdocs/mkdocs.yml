@@ -1,0 +1,6 @@
+site_name: Preamp project
+nav:
+  - Home: index.md
+  - Requirements: generated/doorstop/REQ.md
+  - Specification: generated/doorstop/SPEC.md
+  - Testing: generated/doorstop/TST.md
