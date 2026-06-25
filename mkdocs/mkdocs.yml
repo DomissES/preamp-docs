@@ -4,3 +4,9 @@ nav:
   - Requirements: generated/doorstop/REQ.md
   - Specification: generated/doorstop/SPEC.md
   - Testing: generated/doorstop/TST.md
+theme:
+  name: solar
+extra_css:
+  - assets/css/preamp-doorstop.css
+extra_javascript:
+  - assets/js/preamp-doorstop.js
