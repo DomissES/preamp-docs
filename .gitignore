@@ -3,6 +3,7 @@
 
 # Project specific
 out/
+mkdocs/site/*
 
 # Generated text
 mkdocs/docs/generated/*
