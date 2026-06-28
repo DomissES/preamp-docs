@@ -2,4 +2,8 @@ settings:
   digits: 3
   itemformat: markdown
   prefix: REQ
-  sep: '-'
+  sep: "-"
+attributes:
+  defaults:
+    created: today
+  publish: date
