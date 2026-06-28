@@ -6,4 +6,4 @@ settings:
 attributes:
   defaults:
     created: today
-  publish: date
+  publish: created
