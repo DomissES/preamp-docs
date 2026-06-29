@@ -1,7 +1,8 @@
 ---
 active: true
+created: 28.06.2026
 derived: false
-level: 3.2
+level: 3.2.2
 links: []
 normative: true
 ref: ''

@@ -1,16 +1,17 @@
 ---
 active: true
+created: 28.06.2026
 derived: false
-level: 3.1
+level: 3.2.1
 links: []
 normative: true
 ref: ''
 reviewed: null
 ---
 
-# Regulacja głośności
+# Volume IC
 
-Potencjalne układy do sterowania to:
+Potencjalne układy do sterowania głośnością to:
 
 - THAT 2162
 - THAT 2180

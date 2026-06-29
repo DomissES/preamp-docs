@@ -1,14 +1,12 @@
 ---
 active: true
-created: 22.06.2026
+created: 29.06.2026
 derived: false
-level: 2.2
+level: 3.1
 links: []
 normative: true
 ref: ''
 reviewed: null
 ---
 
-# IF
-
-*Co jak ze sobą jest połączone?*
+# Schemat
