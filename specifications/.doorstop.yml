@@ -3,4 +3,9 @@ settings:
   itemformat: markdown
   parent: REQ
   prefix: SPEC
-  sep: '-'
+  sep: "-"
+attributes:
+  defaults:
+    created: today
+  publish:
+    - created

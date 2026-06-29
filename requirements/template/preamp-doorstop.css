@@ -284,7 +284,7 @@ a {
   transition: transform 160ms ease;
 }
 
-.toc-tree details[open] > summary::before {
+.toc-tree details[open]>summary::before {
   transform: rotate(90deg);
 }
 
@@ -341,7 +341,7 @@ a {
   color: var(--doc-text);
 }
 
-.document-content > :first-child {
+.document-content> :first-child {
   margin-top: 0;
 }
 
@@ -423,18 +423,41 @@ a {
   display: block;
   width: 100%;
   overflow-x: auto;
+  margin: 0.5rem 0 1rem;
   border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.document-content>table {
+  max-width: 240px;
+  border: 1px solid rgba(142, 226, 216, 0.18);
+  border-radius: 8px;
+}
+
+.document-content thead {
+  display: none;
 }
 
 .document-content th,
 .document-content td {
-  border: 1px solid rgba(142, 226, 216, 0.18);
-  padding: 0.55rem 0.65rem;
+  border: none;
+  border-bottom: 1px solid rgba(142, 226, 216, 0.12);
+  padding: 0.3rem 0.5rem;
+}
+
+.document-content>table td:last-child {
+  border-bottom: none;
 }
 
 .document-content th {
   color: #ffffff;
-  background: var(--doc-bg-soft);
+  background: transparent;
+  display: none;
+}
+
+.document-content>table th:first-child,
+.document-content>table td:first-child {
+  width: 35%;
 }
 
 .document-content code {
